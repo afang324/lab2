@@ -76,7 +76,7 @@ public class GitLab implements EntryPoint {
 		RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
-		
+		// here is a comment you should delete
 		flexTable.setText(0,1,"Language");
 		flexTable.setText(0,2, "Shopping Cart Size");
 		flexTable.setText(0,3, "Wish List Size");
