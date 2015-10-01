@@ -47,7 +47,6 @@ public class GitLab implements EntryPoint {
 	 */
 	public void onModuleLoad() 
 	{
-		String a = "hello";
 		service.getUsers(new AsyncCallback<List<IUser>>(){
 
 			@Override
@@ -58,6 +57,8 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onSuccess(List<IUser> result) {
+				String a = "Goodbye";
+				String b = "i wonder if this will simply be merged"
 				Window.alert("Got list back with " +  result.size() + " entries");
 				displayUsers(result);
 				
