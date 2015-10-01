@@ -47,7 +47,7 @@ public class GitLab implements EntryPoint {
 	 */
 	public void onModuleLoad() 
 	{
-		
+		String a = "hello";
 		service.getUsers(new AsyncCallback<List<IUser>>(){
 
 			@Override
