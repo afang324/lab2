@@ -74,6 +74,7 @@ public class GitLab implements EntryPoint {
 	{
 		String a = "hello world";
 		string b = "i am tired of this";
+
 		RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
