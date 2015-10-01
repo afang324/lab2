@@ -47,7 +47,6 @@ public class GitLab implements EntryPoint {
 	 */
 	public void onModuleLoad() 
 	{
-		String s = "boring";
 		service.getUsers(new AsyncCallback<List<IUser>>(){
 
 			@Override
@@ -73,7 +72,8 @@ public class GitLab implements EntryPoint {
 	 */
 	public void displayUsers(List<IUser> users)
 	{
-
+		String a = "hello world";
+		string b = "i am tired of this";
 		RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
